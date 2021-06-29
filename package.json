@@ -1,15 +1,10 @@
 {
-  "name": "express-rest-api-boilerplate",
-  "version": "0.0.0",
-  "author": "Lukas Aichbauer <l.aichbauer@gmail.com>",
-  "license": "MIT",
+  "name": "stimulize-backend",
+  "version": "0.1.0",
+  "author": "Selden Leonard <selden222@gmail.com>, John Long <jplong91@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aichbauer/express-rest-api-boilerplate.git"
-  },
-  "homepage": "https://github.com/aichbauer/express-rest-api-boilerplate#readme",
-  "bugs": {
-    "url": "https://github.com/aichbauer/express-rest-api-boilerplate/issues"
+    "url": "git+https://github.com/aichbauer/stimulize-backend.git"
   },
   "scripts": {
     "project": "node ./scripts/index.js",
@@ -47,6 +42,8 @@
     "helmet": "^3.15.0",
     "jsonwebtoken": "^8.4.0",
     "lodash.merge": "^4.6.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^5.21.9",
     "sqlite3": "^4.0.4"
   },
@@ -58,9 +55,9 @@
     "fs-extra": "^7.0.1",
     "husky": "^1.2.0",
     "jest": "^24.8.0",
-    "nodemon": "^1.18.6",
+    "nodemon": "^2.0.7",
     "shx": "^0.3.2",
     "supertest": "^3.3.0",
-    "yargs": "^12.0.5"
+    "yargs": "^17.0.1"
   }
 }
